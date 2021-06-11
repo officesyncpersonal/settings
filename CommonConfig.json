@@ -1,11 +1,11 @@
 ﻿{
-	"MongoURL": "mongodb://192.168.1.2:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+	"MongoURL": "mongodb://192.168.1.2:27017/?readPreference=primary&ssl=false",
 	"kafka-spider-consumer-config": {
-		"bootstrap.servers": "172.20.118.253:9092",
+		"bootstrap.servers": "192.168.1.2:9092",
 		"group.id": "foo",
 		"auto.offset.reset": "smallest"
 	},
 	"kafka-spider-producer-config": {
-		"bootstrap.servers": "172.20.118.253:9092"
+		"bootstrap.servers": "192.168.1.2:9092"
 	}
 }
